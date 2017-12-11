@@ -1,6 +1,6 @@
 #!/usr/bin/env ash
 
-SQL_INIT_SCRIPT=/pdns/init-sqlite.sql
+SQL_INIT_SCRIPT=/pdns/init.sql
 
 echo "Starting PowerDNS"
 sleep 1
