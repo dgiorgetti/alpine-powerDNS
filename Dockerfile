@@ -1,4 +1,5 @@
 FROM alpine:3.6
+LABEL maintainer="dgiorgetti@vistaprint.com"
 
 EXPOSE 53/tcp 53/udp 32000
 WORKDIR /pdns
