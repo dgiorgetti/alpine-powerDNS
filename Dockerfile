@@ -4,6 +4,7 @@ LABEL maintainer="dgiorgetti@vistaprint.com"
 EXPOSE 53/tcp 53/udp 32000
 
 WORKDIR /pdns
+
 ADD init.sql .
 ADD start.sh .
 
